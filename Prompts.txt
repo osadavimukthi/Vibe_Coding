@@ -1,0 +1,39 @@
+Vibe Coding Day 02 - Grade Calculator
+
+Prompt 01
+
+create a python file named Grade_Calculator.py and include a code to do things that I ask. 
+First ask the Name of the student . 
+Then ask for 3 subject marks. Then count the average mark of the student.
+Display Pass if average >=40 else display Fail.
+
+Prompt 02
+
+Fix the problem below. 
+Cant see the out put of the program because the terminal close when I give inputs and press enter. 
+Modify this to see output.
+
+Prompt 03
+
+Modify this code to display Grade according to the average mark.
+Assign Grade A for average ≥  75
+       Grade B for 60–74
+       Grade C for 40–59
+       Fail below 40
+
+Prompt 04
+
+give result like Grade : A not like result: grade A
+
+Prompt 05
+
+modify the code to run this program repeatedly until user gives "exit" for user name.
+
+Prompt 06
+
+give me a clean output like below
+------------------------------
+Name : Nimal
+Average: 72.5
+Grade : B
+------------------------------
