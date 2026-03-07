@@ -1,0 +1,29 @@
+Vibe Coding Day 02 - Simple Budget Tracker
+
+prompt 01
+
+Create a python file named Simple_Budget_Tracker.py . 
+ask from the use waht is the total  monthy budget. 
+Ask the value of 3 expenses.     
+Then, substract expenses from total budget .
+Then display remaining balance. 
+
+Prompt 02
+
+The program doesnt show the output. 
+It got inputs and terminated the program. 
+Modify this code to show output.
+
+Prompt 03
+
+Dont use USD as the currency. 
+I wanna use LKR as currency . 
+So, midify the code.
+
+Prompt 04
+
+modify program to add a warnining massage If balance < 500 LKR  Print:“Warning: Low Funds”
+
+Prompt 05
+
+extend this program to get expenses multiple times and stop entering when user types done.
