@@ -1,0 +1,37 @@
+Vibe Coding Day 02 - Student Profile card
+
+Prompt 01
+
+Generate a Student Profile Card. 
+Include Name, Stream, Short bio and Profile Photo place holder. 
+Create file as Student_Profile_Card.html
+
+Prompt 02
+
+Change name as Osada Vimukthi. 
+Make stream as Computer Science . 
+Set bio as I am a BSc in Compuer Science undergraduate at University of Colombo School of Computing. 
+I am interested in fields like Artificial Intellegence, Computer Science and Vertual Reality. 
+I am good at problem solving and critical thinking. 
+Replace image place holder with ProfilePhoto.jpeg . 
+This photo also should be added according to the shape of image place holder. 
+
+Prompt 03
+
+Remove portfolio Icon and make this full screen like a portfolio. 
+
+Prompt 04
+
+convert font color to blue in word "Computer science" in bio. 
+
+Prompt 05
+
+add rounder corners, shadow , Change font to Times new roman and add a gradient background
+
+Prompt 06
+
+increase the intencity of shadows and make background blue color more darker. 
+
+Prompt 07
+
+add a blue  transition to background

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osada Vimukthi | Portfolio</title>
+    <style>
+        :root {
+            --primary-color: #4facfe;
+            --secondary-color: #00f2fe;
+            --text-main: #2d3436;
+            --text-muted: #636e72;
+            --glass-bg: rgba(255, 255, 255, 0.05);
+            --glass-border: rgba(255, 255, 255, 0.1);
+            --intense-shadow: 0 50px 120px rgba(0, 0, 0, 0.9);
+        }
+
+        @keyframes backgroundTransition {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background: linear-gradient(-45deg, #050a1a, #0a192f, #1a2a44, #050a1a);
+            background-size: 400% 400%;
+            animation: backgroundTransition 15s ease infinite;
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+        }
+
+        .hero-section {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 60px 20px;
+            position: relative;
+        }
+
+        /* Decorative background elements */
+        .circle {
+            position: absolute;
+            border-radius: 50%;
+            background: linear-gradient(var(--primary-color), var(--secondary-color));
+            filter: blur(120px);
+            opacity: 0.15; /* Reduced opacity for darker feel */
+            z-index: 0;
+        }
+
+        .circle-1 { width: 450px; height: 450px; top: -10%; left: -10%; }
+        .circle-2 { width: 550px; height: 550px; bottom: -10%; right: -10%; }
+
+        .portfolio-container {
+            position: relative;
+            z-index: 1;
+            max-width: 950px;
+            width: 100%;
+            background: var(--glass-bg);
+            backdrop-filter: blur(30px);
+            border: 1px solid var(--glass-border);
+            border-radius: 60px;
+            padding: 80px 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            box-shadow: var(--intense-shadow);
+        }
+
+        .photo-wrapper {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            padding: 8px;
+            background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+            margin-bottom: 35px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.6); /* More intense photo shadow */
+        }
+
+        .photo-inner {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            overflow: hidden;
+            background: #000;
+        }
+
+        .profile-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .name-title {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: #ffffff;
+            letter-spacing: 1px;
+            text-shadow: 4px 4px 10px rgba(0,0,0,0.8); /* Stronger text shadow */
+        }
+
+        .stream-tag {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--secondary-color);
+            text-transform: uppercase;
+            letter-spacing: 6px;
+            margin-bottom: 50px;
+            display: inline-block;
+            border-bottom: 3px solid var(--secondary-color);
+            padding-bottom: 8px;
+        }
+
+        .bio-section {
+            max-width: 750px;
+            background: rgba(0, 0, 0, 0.4); /* Darker bio background */
+            padding: 40px;
+            border-radius: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            box-shadow: inset 0 0 30px rgba(0,0,0,0.5); /* Stronger inset shadow */
+        }
+
+        .bio-text {
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: #d1d1d1;
+            font-weight: 400;
+        }
+
+        .highlight {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        @media (max-width: 768px) {
+            .portfolio-container {
+                padding: 40px 20px;
+                border-radius: 0;
+                background: transparent;
+                border: none;
+                backdrop-filter: none;
+                box-shadow: none;
+            }
+
+            .name-title {
+                font-size: 2.2rem;
+            }
+
+            .stream-tag {
+                font-size: 0.9rem;
+                letter-spacing: 2px;
+            }
+
+            .bio-text {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <main class="hero-section">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+
+        <section class="portfolio-container">
+            <div class="photo-wrapper">
+                <div class="photo-inner">
+                    <img src="ProfilePhoto.jpeg" alt="Osada Vimukthi" class="profile-img">
+                </div>
+            </div>
+
+            <h1 class="name-title">Osada Vimukthi</h1>
+            <span class="stream-tag">Computer Science</span>
+
+            <div class="bio-section">
+                <p class="bio-text">
+                    I am a <span class="highlight">BSc in <span style="color: #2980b9;">Computer Science</span></span> undergraduate at University of Colombo School of Computing. 
+                    I am deeply interested in fields like <span class="highlight">Artificial Intelligence</span>, 
+                    <span style="color: #2980b9; font-weight: 600;">Computer Science</span>, and <span class="highlight">Virtual Reality</span>. 
+                    I pride myself on being strong in problem solving and critical thinking, 
+                    constantly seeking new challenges in the tech landscape.
+                </p>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
